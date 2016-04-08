@@ -1,0 +1,3 @@
+<p>This is a custom WordPress plugin for Cupertino Tennis Club. The purpose of it to let USTA coordinator open/close declaration for upcoming leagues. 
+When plugin is installed, the admin of the website has to add the league names trough the admin panel, under "Settings" -> "Declare Buttons". 
+After the leagues are added there will be a list of them with current status which initially is set to false (closed declaration). The Admin will see the selection menu, he can choose the desired league and check the checkbox to open or close the declaration. </p>

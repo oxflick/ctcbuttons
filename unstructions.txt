@@ -1,0 +1,12 @@
+This is a custom plugin for Cupertino Tennis Club. The purpose of it to let USTA coordinator open/close declaration for upcoming leagues. 
+When plugin is installed, the admin of the website has to add the league names trough the admin panel, under "Settings" -> "Declare Buttons". 
+After the leagues are added there will be a list of them with current status which initially is set to false (closed declaration). The Admin will see the selection menu, he can choose the desired league and check the checkbox to open or close the declaration.
+The same functionality is given to USTA Coordinator who will be accessing the page where he can open/close declaration for the upcoming leagues, except he can't add a new league.
+
+To make the page for USTA coordinator, admin should place the shortcode [ctcbuttons] to the desired page, it's recommended that the page is protected with login/password and can be only accessed by USTA coordinator.
+
+The buttons for the leagues should be placed on the desired page with a shorcode [buttons].
+
+The plugin has a main file wpctcbuttons.php, there are 2 supported shotcodes, one [ctcbuttons] is for USTA coordinator and one [buttons] is to display the buttons declare intent to play in USTA leagues.
+
+There are 3 files in "inc" (included) folder, the front-end-ctcbuttons.php is responsible for ctcbuttons shortcode, the font-end-buttons.php is responsible for buttons shortcode and options-page-wrapper.php is responsible for the admin page and fucntionality.
